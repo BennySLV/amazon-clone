@@ -22,6 +22,13 @@
 	border-radius: 24px;
 }
 
+.header-searchInput {
+	height: 12px;
+	padding: 10px;
+	border: none;
+	width: 100%;
+}
+
 .header-search-icon {
 	padding: 5px;
 	height: 22px !important;
