@@ -52,6 +52,17 @@
 	color: white;
 }
 
+.header-option-basket {
+	display: flex;
+	align-items: center;
+	color: white;
+}
+
+.header-basket-count {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
 .header-nav {
 	display: flex;
 	justify-content: space-evenly;

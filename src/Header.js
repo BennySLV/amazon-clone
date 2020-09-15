@@ -2,6 +2,7 @@
 import React from "react";
 import "./Header.css";
 import SearchIcon from "@material-ui/icons/Search";
+import ShoppingBasketIcon from "@material-ui/icons/ShoppingBasket";
 
 function Header() {
 	return (
@@ -17,7 +18,7 @@ function Header() {
 			<div className="header-nav">
 				{/* "Hello, sign-in" option*/}
 				<div className="header-option">
-					<span className="header-option-line-one">Hello, Guest</span>
+					<span className="header-option-line-one">Hello Guest</span>
 					<span className="header-option-line-two">Sign in</span>
 				</div>
 				{/* "Returns and orders" option*/}
@@ -29,6 +30,12 @@ function Header() {
 				<div className="header-option">
 					<span className="header-option-line-one">Your</span>
 					<span className="header-option-line-two">Prime</span>
+				</div>
+				<div className="header-option-basket">
+					<ShoppingBasketIcon />
+					<span className="header-option-line-two header-basket-count">
+						0
+					</span>
 				</div>
 			</div>
 		</div>
