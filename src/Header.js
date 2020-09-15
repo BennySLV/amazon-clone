@@ -15,17 +15,17 @@ function Header() {
 				<SearchIcon className="header-search-icon" />
 			</div>
 			<div className="header-nav">
-				{/* Hello, sign-in */}
+				{/* "Hello, sign-in" option*/}
 				<div className="header-option">
 					<span className="header-option-line-one">Hello, Guest</span>
 					<span className="header-option-line-two">Sign in</span>
 				</div>
-				{/* Returns and orders */}
+				{/* "Returns and orders" option*/}
 				<div className="header-option">
 					<span className="header-option-line-one">Returns</span>
 					<span className="header-option-line-two">&amp; Orders</span>
 				</div>
-				{/* Your prime */}
+				{/* "Your prime" option*/}
 				<div className="header-option">
 					<span className="header-option-line-one">Your</span>
 					<span className="header-option-line-two">Prime</span>
