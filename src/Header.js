@@ -17,18 +17,18 @@ function Header() {
 			<div className="header-nav">
 				{/* Hello, sign-in */}
 				<div className="header-option">
-					<span className="header-optionLineOne">Hello, Guest</span>
-					<span className="header-optionLineTwo">Sign in</span>
+					<span className="header-option-line-one">Hello, Guest</span>
+					<span className="header-option-line-two">Sign in</span>
 				</div>
 				{/* Returns and orders */}
 				<div className="header-option">
-					<span className="header-optionLineOne">Returns</span>
-					<span className="header-optionLineTwo">&amp; Orders</span>
+					<span className="header-option-line-one">Returns</span>
+					<span className="header-option-line-two">&amp; Orders</span>
 				</div>
 				{/* Your prime */}
 				<div className="header-option">
-					<span className="header-optionLineOne">Your</span>
-					<span className="header-optionLineTwo">Prime</span>
+					<span className="header-option-line-one">Your</span>
+					<span className="header-option-line-two">Prime</span>
 				</div>
 			</div>
 		</div>
