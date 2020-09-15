@@ -9,24 +9,24 @@ function Header() {
 				className="header-logo"
 				src="http://pngimg.com/uploads/amazon/amazon_PNG11.png"
 			/>
-			<div className="header__search">
+			<div className="header-search">
 				<input className="header__searchInput" type="text" />
 			</div>
-			<div className="header__nav">
+			<div className="header-nav">
 				{/* Hello, sign-in */}
-				<div className="header__option">
-					<span className="header__optionLineOne">Hello, Guest</span>
-					<span className="header__optionLineTwo">Sign in</span>
+				<div className="header-option">
+					<span className="header-optionLineOne">Hello, Guest</span>
+					<span className="header-optionLineTwo">Sign in</span>
 				</div>
 				{/* Returns and orders */}
-				<div className="header__option">
-					<span className="header__optionLineOne">Returns</span>
-					<span className="header__optionLineTwo">:amp Orders</span>
+				<div className="header-option">
+					<span className="header-optionLineOne">Returns</span>
+					<span className="header-optionLineTwo">:amp Orders</span>
 				</div>
 				{/* Your prime */}
-				<div className="header__option">
-					<span className="header__optionLineOne">Your</span>
-					<span className="header__optionLineTwo">Prime</span>
+				<div className="header-option">
+					<span className="header-optionLineOne">Your</span>
+					<span className="header-optionLineTwo">Prime</span>
 				</div>
 			</div>
 		</div>
