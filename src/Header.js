@@ -23,7 +23,7 @@ function Header() {
 				{/* Returns and orders */}
 				<div className="header-option">
 					<span className="header-optionLineOne">Returns</span>
-					<span className="header-optionLineTwo">:amp Orders</span>
+					<span className="header-optionLineTwo">&amp; Orders</span>
 				</div>
 				{/* Your prime */}
 				<div className="header-option">

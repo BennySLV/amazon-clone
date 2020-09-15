@@ -42,3 +42,8 @@
 	margin-right: 10px;
 	color: white;
 }
+
+.header-nav {
+	display: flex;
+	justify-content: space-evenly;
+}
