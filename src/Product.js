@@ -11,7 +11,7 @@ function Product() {
 					<strong>19.99</strong>
 				</p>
 				<div className="product-rating">
-					<p className="rating-star">&#9733;</p>
+					<p className="rating-star">🌟</p>
 				</div>
 			</div>
 			<img
