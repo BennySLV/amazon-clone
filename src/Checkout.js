@@ -11,6 +11,9 @@ function Checkout() {
 					alt=""
 				/>
 			</div>
+			<div>
+				<h2 className="checkout-title">Your shopping basket</h2>
+			</div>
 			<div className="checkout-right-hand-column"></div>
 		</div>
 	);
