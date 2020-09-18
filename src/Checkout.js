@@ -14,7 +14,9 @@ function Checkout() {
 			<div>
 				<h2 className="checkout-title">Your shopping basket</h2>
 			</div>
-			<div className="checkout-right-hand-column"></div>
+			<div className="checkout-right-hand-column">
+				<h2>Subtotal: </h2>
+			</div>
 		</div>
 	);
 }
