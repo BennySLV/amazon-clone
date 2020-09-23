@@ -20,13 +20,17 @@ function Login() {
 					<h5>Password</h5>
 					<input type="password" />
 
-					<button> Sign In</button>
+					<button className="login-sign-in-button"> Sign In</button>
 				</form>
 				<p>
 					By signing-in, you agree to the Amazon Clone conditions of
 					Use &amp; Sale. Please see our Privacy Notice, Cookies
 					Notice and our Interest-Based Ads Notice.
 				</p>
+				<p className="not-registered-text">Not registered?</p>
+				<button className="login-register-button">
+					Create you Amazon Account
+				</button>
 			</div>
 		</div>
 	);
