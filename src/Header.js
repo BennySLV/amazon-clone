@@ -21,11 +21,14 @@ function Header() {
 				<SearchIcon className="header-search-icon" />
 			</div>
 			<div className="header-nav">
-				{/* "Hello, sign-in" option*/}
-				<div className="header-option">
-					<span className="header-option-line-one">Hello Guest</span>
-					<span className="header-option-line-two">Sign in</span>
-				</div>
+				<Link to="/login">
+					<div className="header-option">
+						<span className="header-option-line-one">
+							Hello Guest
+						</span>
+						<span className="header-option-line-two">Sign in</span>
+					</div>
+				</Link>
 				{/* "Returns and orders" option*/}
 				<div className="header-option">
 					<span className="header-option-line-one">Returns</span>
