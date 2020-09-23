@@ -1,10 +1,16 @@
 import React from "react";
 import "./Login.css";
+import { Link } from "react-router-dom";
 
 function Login() {
 	return (
 		<div className="login">
-			<img src="http://pngimg.com/uploads/amazon/amazon_PNG11.png" />
+			<Link to="/">
+				<img
+					className="login-logo"
+					src="https://i.insider.com/539f3ffbecad044276726c01?width=1100&format=jpeg&auto=webp"
+				/>
+			</Link>
 		</div>
 	);
 }
