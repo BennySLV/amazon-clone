@@ -4,13 +4,17 @@ import { Link, useHistory } from "react-router-dom";
 import { auth } from "./firebase";
 
 function Login() {
-	const history = useHistory();
+	const history = useHistory(); // change the URL once a form has been submitted to the server
 	const [email, setEmail] = useState("");
 	const [password, setPassword] = useState("");
 
 	const signIn = (e) => {
 		e.preventDefault();
-		// TODO: Firebase sign-in functionality
+		auth.signInWithEmailAndPassword(email, password)
+			.then((auth) => {
+				history.push("/");
+			})
+			.catch((error) => alert(error.message));
 	};
 
 	const register = () => {
