@@ -34,7 +34,7 @@ function Header() {
 						className="header-option"
 					>
 						<span className="header-option-line-one">
-							{user ? `Hello ${user?.email}` : "Not signed in"}
+							{user ? `Hello ${user.email}` : "Not signed in"}
 						</span>
 						<span className="header-option-line-two">
 							{user ? "Sign Out" : "Sign In"}
