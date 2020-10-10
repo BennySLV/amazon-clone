@@ -31,5 +31,5 @@ app.post("/payments/create", async (request, response) => {
 	});
 });
 
-// Listen command
+// Listen command - required to run the Express app on a cloud function
 exports.api = functions.https.onRequest(app);
