@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from "react";
-import "./Payment.css";
-import { useStateValue } from "./StateProvider";
+import "../styles/Payment.css";
+import { useStateValue } from "../StateProvider";
 import CheckoutProduct from "./CheckoutProduct";
 import { Link, useHistory } from "react-router-dom";
 import { CardElement, useElements, useStripe } from "@stripe/react-stripe-js";
 import CurrencyFormat from "react-currency-format";
-import { getBasketTotal } from "./reducer";
-import axios from "./axios";
+import { getBasketTotal } from "../reducer";
+import axios from "../axios";
 
 function Payment() {
 	const [{ basket, user }, dispatch] = useStateValue();
