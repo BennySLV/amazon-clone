@@ -4,7 +4,7 @@ import '../styles/Orders.css'
 function Orders() {
     return (
         <div>
-            <h1>This is the Orders page</h1>
+            <h1>Your Orders</h1>
         </div>
     )
 }
