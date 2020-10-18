@@ -14,7 +14,7 @@ app.use(cors({ origin: true }));
 app.use(express.json());
 
 // API routes
-app.get("/", (request, response) => response.status(200).send("Hello World"));
+app.get("/", (request, response) => response.status(200).send("Hello World")); // end point example
 
 app.post("/payments/create", async (request, response) => {
 	const total = request.query.total;
@@ -25,7 +25,7 @@ app.post("/payments/create", async (request, response) => {
 		currency: "gbp", // Great British Pound
 	});
 
-	// Status: OK - Created (i.e. Payment intent has been created)
+	// Status: OK - (i.e. The payment intent has been created)
 	response.status(201).send({
 		clientSecret: paymentIntent.client_secret,
 	});
