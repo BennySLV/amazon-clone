@@ -43,11 +43,12 @@ function App() {
 		<Router>
 			<div className="app">
 				<Switch>
-					<Route path="/orders">
-						<Orders />
-					</Route>
 					<Route path="/login">
 						<Login />
+					</Route>
+					<Route path="/orders">
+						<Header />
+						<Orders />
 					</Route>
 					<Route path="/checkout">
 						<Header />
