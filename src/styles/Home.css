@@ -6,7 +6,7 @@
 	max-width: 1500px;
 }
 
-.home__ProductRow {
+.home__productRow {
 	display: flex;
 	z-index: 1;
 	margin-left: 5px;
