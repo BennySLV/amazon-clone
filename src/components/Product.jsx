@@ -33,11 +33,11 @@ function Product({ id, title, image, price, rating }) {
 					{Array(rating)
 						.fill()
 						.map((_, i) => (
-							<span className="rating__star">🌟</span>
+							<span role="img" aria-label="rating star emoji">🌟</span>
 						))}
 				</div>
 			</div>
-			<img src={image} />
+			<img src={image} alt=""/>
 			<button onClick={addToBasket}>Add to Basket</button>
 		</div>
 	);
