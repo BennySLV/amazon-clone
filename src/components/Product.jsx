@@ -23,17 +23,17 @@ function Product({ id, title, image, price, rating }) {
 
 	return (
 		<div className="product">
-			<div className="product-info">
+			<div className="product__info">
 				<p>{title}</p>
-				<p className="product-price">
+				<p className="product__price">
 					<small>£</small>
 					<strong>{price}</strong>
 				</p>
-				<div className="product-rating">
+				<div className="product__rating">
 					{Array(rating)
 						.fill()
 						.map((_, i) => (
-							<span className="rating-star">🌟</span>
+							<span className="rating__star">🌟</span>
 						))}
 				</div>
 			</div>
